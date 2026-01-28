@@ -1,15 +1,15 @@
 \documentclass[11pt]{article}
 
-
 \providecommand{\tightlist}{%
 \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[a4paper,margin=0.9in]{geometry}
 \usepackage{fontspec}
 \usepackage{xcolor}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{hyperref}
+\usepackage{microtype}
 
 \setmainfont[
   Numbers=Lining,
@@ -20,20 +20,31 @@
 \definecolor{accent}{HTML}{2E3440}
 
 \titleformat{\section}
-{\Large\bfseries\color{accent}}
+{\Large\bfseries\color{accent}\raggedright}
 {}
 {0em}
 {}
 
-\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\section}{0pt}{10pt}{4pt}
 
+\definecolor{linkcolor}{HTML}{4C566A}
 \hypersetup{
-    colorlinks=true,
-    urlcolor=accent
-    }
+  colorlinks=true,
+  urlcolor=linkcolor,
+  linkcolor=accent,
+  pdfborder={0 0 0}
+}
     
-\setlist[itemize]{noitemsep, topsep=2pt}
-\setlist[itemize]{leftmargin=*, itemsep=2pt}
+\setlist[itemize]{
+  leftmargin=*,
+  itemsep=2pt,
+  topsep=3pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
 
 \setcounter{secnumdepth}{0}
 \pagenumbering{gobble}
