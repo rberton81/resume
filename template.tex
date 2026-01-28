@@ -1,0 +1,43 @@
+\documentclass[11pt]{article}
+
+
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\setmainfont[
+  Numbers=Lining,
+  Numbers=Monospaced
+]{TeX Gyre Pagella}
+
+
+\definecolor{accent}{HTML}{2E3440}
+
+\titleformat{\section}
+{\Large\bfseries\color{accent}}
+{}
+{0em}
+{}
+
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=accent
+    }
+    
+\setlist[itemize]{noitemsep, topsep=2pt}
+\setlist[itemize]{leftmargin=*, itemsep=2pt}
+
+\setcounter{secnumdepth}{0}
+\pagenumbering{gobble}
+
+\begin{document}
+$body$
+\end{document}
