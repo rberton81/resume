@@ -1,36 +1,30 @@
 # Romain Berton
 
-Software Engineer (Backend / Distributed Systems)  
-Remote · EU citizen · Currently based in Thailand  
-https://github.com/rberton81 | contact@romain.it.com | https://romain.it.com
+\jobtitle{Software Engineer (Backend / Distributed Systems)}  
 
----
+\meta{Remote · EU citizen · Currently based in Thailand}  
+
+\contact{\href{https://github.com/rberton81}{github.com/rberton81} \textbar\ \href{mailto:contact@romain.it.com}{contact@romain.it.com} \textbar\ \href{https://romain.it.com}{romain.it.com}}
 
 ## Summary
 
 Software engineer with 10+ years of experience designing, building, and operating data-intensive backend and distributed systems in production environments.
 
----
-
 ## Skills
 
-- **Languages:** Python, JavaScript
-- **Backend & APIs:** Django, REST APIs, data ingestion pipelines
-- **Data & Storage:** PostgreSQL, Redis, large-scale data migrations
-- **Infrastructure & DevOps:** Docker, Kubernetes, CI/CD (GitHub Actions),
-  AWS, bare-metal deployments
-- **Observability & Reliability:** Prometheus, Grafana, alerting and monitoring
-- **Data Streaming:** Kafka, Debezium
-- **Testing & Quality:** Automated testing, test frameworks, CI validation
-- **Other:** Linux, Jira
-
----
+**Languages:** Python, JavaScript  
+**Backend & APIs:** Django, REST APIs, data ingestion pipelines  
+**Data & Storage:** PostgreSQL, Redis, large-scale data migrations  
+**Infra & DevOps:** Docker, Kubernetes, CI/CD (GitHub Actions),
+  AWS, bare-metal deployments  
+**Observability & Reliability:** Prometheus, Grafana, alerting and monitoring  
+**Data Streaming:** Kafka, Debezium  
+**Testing & Quality:** Automated testing, test frameworks, CI validation  
+**Other:** Linux, Jira, VSCode
 
 ## Experience
 
-### Canold — Full Stack Software Engineer
-
-**October 2021 – Present**
+### Canold, remote — Full Stack Software Engineer \hfill {\small\color{muted} October 2021 – Present}
 
 - Led large-scale MySQL/PostgreSQL migrations involving millions of records with minimal downtime, and implemented partial database replication using custom Debezium connectors to support downstream analytics
 - Designed and owned backend architectures for multiple data ingestion and reporting services, including external API integrations and live data pipelines used by 50+ clients
@@ -38,34 +32,26 @@ Software engineer with 10+ years of experience designing, building, and operatin
 - Built and operated CI/CD pipelines for Dockerized applications, automating build, deployment, and operational workflows to improve reliability and reduce manual intervention
 - Improved system reliability and data correctness by implementing monitoring, alerting, operational runbooks, and reconciliation scripts to detect and resolve data drift across replicated datasets
 
-### Assumption School, Thailand — Maths & Science Teacher
-
-**June 2020 – October 2021**
+### Assumption School, Thailand — Maths & Science Teacher \hfill {\small\color{muted} June 2020 – October 2021}
 
 - Taught mathematics and science to high school students in English
 - Acted as homeroom teacher, coordinating academic and pastoral responsibilities
 - Delivered intensive English camps and private tutoring
 
-### Asia Outdoors + Langurs Adventures, Vietnam — Outdoors guide
-
-**June 2019 – June 2020**
+### Asia Outdoors + Langurs Adventures, Vietnam — Outdoors guide \hfill {\small\color{muted} June 2019 – June 2020}
 
 - Led climbing, kayaking, and hiking expeditions in Ha Long Bay
 - Responsible for client safety, route planning, and risk assessment
 - Managed groups in dynamic outdoor conditions
 
-### Sopra Steria, France — Backend Software Engineer
-
-**June 2015 – February 2018**
+### Sopra Steria, France — Backend Software Engineer \hfill {\small\color{muted} June 2015 – February 2018}
 
 - Java backend software engineer working on systems for the French healthcare sector
 - Progressed to increased responsibility across multiple projects in agile teams
 
----
-
 ## Selected Project
 
-### Personal Productivity & Habit Tracking Platform (romain.it.com)
+### Personal Productivity & Habit Tracking Platform ([romain.it.com](https://romain.it.com))
 
 Independently developed, production-deployed side project
 
@@ -78,14 +64,11 @@ Independently developed, production-deployed side project
 
 **Technologies:** Django, React, PostgreSQL, Docker
 
----
-
 ## Education
 
-**Ecole des Mines d'Albi Carmaux, France — 2015**
-Engineer's Degree (Master level), Information Systems and Computer Engineering
+### Ecole des Mines d'Albi Carmaux, France \hfill {\small\color{muted} 2015}
 
----
+Engineer's Degree (Master level), Information Systems and Computer Engineering
 
 ## Interests
 

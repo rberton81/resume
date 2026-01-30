@@ -10,44 +10,92 @@
 \usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{microtype}
+\usepackage{tikz}
+\usepackage{ragged2e}
+
+\setlength{\emergencystretch}{2em}
+\hyphenpenalty=800
+\exhyphenpenalty=800
 
 \setmainfont[
   Numbers=Lining,
   Numbers=Monospaced
 ]{TeX Gyre Pagella}
 
+% Colors
+\definecolor{accent}{HTML}{3B82A6}
+\definecolor{muted}{HTML}{6B7280}
+\definecolor{linkcolor}{HTML}{3B82F6}
 
-\definecolor{accent}{HTML}{2E3440}
+% Header styling helpers
+\newcommand{\jobtitle}[1]{%
+  {\large\bfseries\color{muted} #1}
+}
 
+\newcommand{\meta}[1]{%
+  {\small\color{muted} #1}
+}
+
+
+\newcommand{\contact}[1]{%
+  {\small #1}
+}
+
+% Section formatting
 \titleformat{\section}
+{\Huge\bfseries\color{black}\raggedright}
+{}
+{0em}
+{}
+\titlespacing*{\section}{0pt}{0pt}{6pt}
+
+% Subsection formatting
+\titleformat{\subsection}
 {\Large\bfseries\color{accent}\raggedright}
 {}
 {0em}
 {}
+[\vspace{-10pt}\tikz{\draw[accent, line width=0.4pt] (0,0) -- (\linewidth,0);}]
+\titlespacing*{\subsection}{0pt}{8pt}{3pt}
 
-\titlespacing*{\section}{0pt}{10pt}{4pt}
+% Subsubsection formatting
+\titleformat{\subsubsection}
+{\bfseries\color{black}\raggedright}
+{}
+{0em}
+{}
+\titlespacing*{\subsubsection}{0pt}{6pt}{2pt}
 
-\definecolor{linkcolor}{HTML}{4C566A}
+% Hyperlink setup
 \hypersetup{
   colorlinks=true,
   urlcolor=linkcolor,
   linkcolor=accent,
   pdfborder={0 0 0}
 }
-    
+
+% Itemize formatting
 \setlist[itemize]{
   leftmargin=*,
   itemsep=2pt,
   topsep=3pt,
   parsep=0pt,
-  partopsep=0pt
+  partopsep=0pt,
 }
 
+\renewcommand\labelitemi{\textcolor{accent}{\small\textbullet}}
+
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{3pt}
+\setlength{\parskip}{4pt}
 
 \setcounter{secnumdepth}{0}
 \pagenumbering{gobble}
+
+\makeatletter
+\renewcommand{\hrule}{%
+  \color{accent}\old@hrule
+}
+\makeatother
 
 \begin{document}
 $body$
